@@ -7,10 +7,6 @@ function stop_frpc() {
     kill -15 "${WAIT_PIDS[@]}"
 }
 
-bashio::log.info "Copying configuration."
-echo "$(bashio::config 'toml')" > $CONFIG_PATH
-
-
 bashio::log.info "Starting frp client"
 
 cat $CONFIG_PATH
