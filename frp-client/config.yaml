@@ -19,6 +19,4 @@ arch:
   - armv7
   - i386
 options:
-  toml: ""
 schema:
-  toml: str
