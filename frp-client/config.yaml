@@ -18,5 +18,3 @@ arch:
   - armhf
   - armv7
   - i386
-options:
-schema:
